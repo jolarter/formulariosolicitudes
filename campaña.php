@@ -15,52 +15,52 @@
 		overflow:scroll;
 		padding:5px
   }
-	
+
 	h1,h2,h3,h4,label,h5{
-	  color:#0A78B5;   
+	  color:#0A78B5;
     }
-	
+
 	h2{
        text-align:center;
 	   padding:5px;
-	   	  
+
 	}
 	h3{
-		
+
 	   position:relative;
 	   left: 40px
 	}
 	h5{
-		
+
 	   position:absolute;
 	   left:1183px;
 	   top:423px
 	}
-	
+
 	td{
 		padding:5px
-		
+
 	}
-	
+
 	label{
 		padding-right:5px;
 		padding-left:5px
 	}
 	fieldset{
-		
+
 		max-width:700px !important;
 		margin:0 auto;
 		border: 1px solid #771618
-		
+
 	}
 	span{
 		font-weight:800;
 	}
 	table{
-		
+
 		padding-top:20px
 		}
-	
+
 	.back{
 			position:absolute;
 			top:400px;
@@ -99,10 +99,10 @@
                <td width="19%"><label>Conciencia<strong style="color:#601314"> (*)</strong></label></td>
                <td width="18%"><input type="checkbox" name="conciencia"></td>
             </tr>
-            <tr>   
+            <tr>
                <td colspan="5"><label>Objetivo de la Campaña<strong style="color:#601314"> (*)</strong></label></td>
             </tr>
-            <tr>   
+            <tr>
                <td colspan="5"><textarea cols="88" rows="5" name="name"></textarea></td>
             </tr>
             <tr>
@@ -136,7 +136,7 @@
                <td><label>Diseños Previos<strong style="color:#601314"> (*)</strong></label></td>
                <td colspan="3"><input type="file" name="pa"></td>
             </tr>
-            
+
     </table>
     </fieldset>
     </div>
@@ -272,7 +272,7 @@
                 <a class="button_bRight slidebttn" id="button_bRight" href="index.php"><img src="img/btn-i.png"></a>
             </div>
         </div>
-	  </section>    
+	  </section>
     </div>
     </form>
     <footer>
@@ -282,7 +282,9 @@
     </footer>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
         <script type="text/javascript">
+
             $(function() {
+              
                 $('.slidebttn').hover(
 					function () {
 						var $this 		= $(this);
@@ -300,6 +302,6 @@
 					}
 				);
             });
-        </script>    
+        </script>
 </body>
 </html>
