@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Página Principal- Solicitudes Comunicaciones</title>
+<title>Página Principal- Solicitudes Comunicaciones!</title>
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 <script type="text/javascript" src="js/modernizr.custom.29473.js"></script>
 </head>
@@ -284,7 +284,7 @@
         <script type="text/javascript">
 
             $(function() {
-              
+
                 $('.slidebttn').hover(
 					function () {
 						var $this 		= $(this);
